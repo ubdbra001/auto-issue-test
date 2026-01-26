@@ -2,7 +2,7 @@ name: Yearly expenses reminder
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 21 * * *"
+    - cron: "44 17 * * *"
 
 jobs:
   create_issue:
