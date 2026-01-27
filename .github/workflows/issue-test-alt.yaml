@@ -2,7 +2,7 @@ name: Yearly expenses reminder alt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 14 * * *'
+    - cron: '19 16 * * *'
 
 jobs:
   issue:
